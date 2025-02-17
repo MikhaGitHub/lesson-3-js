@@ -1,12 +1,9 @@
-function result_nonsense () {
-    result.innerHTML = "Умный Синий Бык";
-}
+function updateResult() {
+    var personality_value = document.getElementById("personality").value;
+    var month_value = document.getElementById("month").value;
+    var year_value = document.getElementById("year").value;
 
+    var resultText = `${personality_value} ${month_value} ${year_value}`;
 
-let number_month = document.getElementById("number_month")
-let month= document.getElementById("month")
-let year = document.getElementById("year")
-let result = document.getElementById("result")
-number_month.addEventListener('change', result_nonsense)
-month.addEventListener('change', result_nonsense)
-year.addEventListener('change', result_nonsense)
+    document.querySelector('.result').innerHTML = resultText;
+};
