@@ -1,3 +1,11 @@
-#result {
-    margin-top: 20px;
+main {
+    margin-top: 20px; /* Сдвигаем весь main на 20 пикселей вниз */
+}
+
+#buttons_menu {
+    margin-top: 20px; /* Сдвигаем кнопку на 20 пикселей вниз */
+}
+
+.result {
+    margin-top: 20px; /* Сдвигаем результат на 20 пикселей вниз */
 }
