@@ -9,23 +9,19 @@
 <body>
     <main>
         <form>
-            <select id="personality">
+            <select id="personality" onclick="updateResult()">
                 <option value="Добрый">1</option>
                 <option value="Хороший">2</option>
             </select>
-            <select id="month">
+            <select id="month" onclick="updateResult()">
                 <option value="Голубой">Январь</option>
                 <option value="Желтый">Фефраль</option>
             </select>
-            <select id="year">
+            <select id="year" onclick="updateResult()">
                 <option value="Кит">2010</option>
                 <option value="Магнит">2005</option>
             </select>
         </form>
-        <div id="buttons_menu">
-            <button onclick="updateResult()" 
-            id='update'>Обновить</button>
-        </div>
         <div class="result"></div>
     </main>
 
