@@ -15,6 +15,3 @@ function updateResult() {
 
     resultElement.innerHTML = resultText;
 }
-
-// Добавляем слушатель события на кнопку
-updateButton.addEventListener('click', updateResult);
