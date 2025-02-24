@@ -15,3 +15,7 @@ function updateResult() {
 
     resultElement.innerHTML = resultText;
 }
+
+personalityInput.addEventListener('change', updateResult)
+monthInput.addEventListener('change', updateResult)
+yearInput.addEventListener('change', updateResult)
